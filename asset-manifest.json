@@ -1,14 +1,17 @@
 {
-    "files": {
-        "main.css": "./static/css/main.16a179de.css",
-        "main.js": "./static/js/main.85815861.js",
-        "static/js/787.c43049b8.chunk.js": "./static/js/787.c43049b8.chunk.js",
-        "index.html": "./index.html",
-        "static/media/add.svg": "./static/media/add.331ea5b617a7e587bd9f28aee830d0c2.svg",
-        "static/media/delete.svg": "./static/media/delete.5d432bf26c12944161552a2fb4de82e4.svg",
-        "main.16a179de.css.map": "./static/css/main.16a179de.css.map",
-        "main.85815861.js.map": "./static/js/main.85815861.js.map",
-        "787.c43049b8.chunk.js.map": "./static/js/787.c43049b8.chunk.js.map"
-    },
-    "entrypoints": ["./static/css/main.16a179de.css", "./static/js/main.85815861.js"]
+  "files": {
+    "main.css": "/red_collar_test/static/css/main.16a179de.css",
+    "main.js": "/red_collar_test/static/js/main.63b1f57d.js",
+    "static/js/787.c43049b8.chunk.js": "/red_collar_test/static/js/787.c43049b8.chunk.js",
+    "index.html": "/red_collar_test/index.html",
+    "static/media/add.svg": "/red_collar_test/static/media/add.64b4d02aa1c4f604eb4cd4984710bf31.svg",
+    "static/media/delete.svg": "/red_collar_test/static/media/delete.f8375b9a3449e3d8c1ded3cd1b9bc503.svg",
+    "main.16a179de.css.map": "/red_collar_test/static/css/main.16a179de.css.map",
+    "main.63b1f57d.js.map": "/red_collar_test/static/js/main.63b1f57d.js.map",
+    "787.c43049b8.chunk.js.map": "/red_collar_test/static/js/787.c43049b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16a179de.css",
+    "static/js/main.63b1f57d.js"
+  ]
 }
