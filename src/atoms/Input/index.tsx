@@ -3,14 +3,14 @@ import { InputInputStyled, InputStyled, InputTextareaStyled } from "./index.styl
 import { InputTypes, IProps } from "./types";
 
 const Input: React.FC<IProps> = (props) => {
-    const { placeholder, type } = props;
+    const { placeholder, type, register, error } = props;
 
     return (
         <InputStyled>
             {type === InputTypes.textarea ? (
-                <InputTextareaStyled placeholder={placeholder} />
+                <InputTextareaStyled error={error} placeholder={placeholder} {...register} />
             ) : (
-                <InputInputStyled placeholder={placeholder} type={type} />
+                <InputInputStyled error={error} placeholder={placeholder} type={type} {...register} />
             )}
         </InputStyled>
     );

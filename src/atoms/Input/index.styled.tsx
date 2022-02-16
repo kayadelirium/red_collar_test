@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { IStyledProps } from "./types";
 
 export const InputStyled = styled.div`
     max-width: 350px;
@@ -40,6 +41,7 @@ export const InputInputStyled = styled.input`
             color: rgba(255, 255, 255, 0.2);
         }
     }
+    background-color: ${(props: IStyledProps) => (props.error ? "rgba(156, 31, 31, 0.6)" : "rgba(0, 0, 0, 0.2)")};
 `;
 
 export const InputTextareaStyled = styled(InputInputStyled).attrs({ as: "textarea" })`

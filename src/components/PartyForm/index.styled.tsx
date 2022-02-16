@@ -6,7 +6,7 @@ export const PartyFormStyled = styled.div`
     margin: auto;
     position: relative;
     padding: 10px;
-
+    box-sizing: border-box;
     font-family: monospace;
     color: white;
 
@@ -28,6 +28,7 @@ export const PartyFormStyled = styled.div`
         border-left: 1px solid rgba(255, 255, 255, 0.2);
         border-top: 1px solid rgba(255, 255, 255, 0.2);
     }
+
     :hover {
         :before {
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
